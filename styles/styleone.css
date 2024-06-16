@@ -6,7 +6,65 @@ body {
     padding: 0;
 }
 
-.container {
+header {
+    text-align: center;
     padding: 20px;
+    background-color: #3A006F; /* Slightly darker purple */
 }
-  }
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.slider {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.slide {
+    background-color: #5A0090; /* Another shade of purple */
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.articles {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+article {
+    background-color: #3A006F; /* Slightly darker purple */
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+article a {
+    color: #FFD700; /* Gold color for links */
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3A006F;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+        }
+    
